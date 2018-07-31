@@ -32,3 +32,20 @@ Options:
   --output [json|md]  Output as json or as markdown list with links.
   --help              Show this message and exit.
 ```
+
+## sample outputs
+
+```
+$ ghdone ryantuck --repo "ryantuck/ghdone"
+ryantuck/ghdone 1 ryantuck 2018-07-31 open   add output samples to readme
+$ ghdone ryantuck --repo "ryantuck/ghdone" --output json
+[{'created': '2018-07-31',
+  'num': 1,
+  'repo': 'ryantuck/ghdone',
+  'status': 'open',
+  'title': 'add output samples to readme',
+  'url': 'https://api.github.com/repos/ryantuck/ghdone/pulls/1',
+  'user': 'ryantuck'}]
+$ ghdone ryantuck --repo "ryantuck/ghdone" --output md
+- [ryantuck/ghdone #1 add output samples to readme](https://api.github.com/repos/ryantuck/ghdone/pulls/1)
+```
