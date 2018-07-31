@@ -35,4 +35,17 @@ Options:
 
 ## sample outputs
 
-TODO: add outputs here.
+```
+$ ghdone ryantuck --repo "ryantuck/ghdone"
+ryantuck/ghdone 1 ryantuck 2018-07-31 open   add output samples to readme
+$ ghdone ryantuck --repo "ryantuck/ghdone" --output json
+[{'created': '2018-07-31',
+  'num': 1,
+  'repo': 'ryantuck/ghdone',
+  'status': 'open',
+  'title': 'add output samples to readme',
+  'url': 'https://api.github.com/repos/ryantuck/ghdone/pulls/1',
+  'user': 'ryantuck'}]
+$ ghdone ryantuck --repo "ryantuck/ghdone" --output md
+- [ryantuck/ghdone #1 add output samples to readme](https://api.github.com/repos/ryantuck/ghdone/pulls/1)
+```
