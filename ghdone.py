@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 from collections import namedtuple
 import os
-import requests
+import pprint
 
 import arrow
 import click
-import pprint
+import requests
 
 
 BASE_URL = 'https://api.github.com'
