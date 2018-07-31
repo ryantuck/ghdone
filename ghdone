@@ -75,7 +75,7 @@ def simple_pr(pr_json):
         created=arrow.get(pr_json['created_at']).date().isoformat(),
         status=status,
         title=pr_json['title'],
-        url=pr_json['url'],
+        url=pr_json['html_url'],
     )
 
 
