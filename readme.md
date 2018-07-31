@@ -6,11 +6,11 @@ Fetch high-level detail about PRs for a given user.
 
 ## installation
 
-Clone, and symlink.
+Clone, and `pip install`:
 
 ```
 $ git clone https://github.com/ryantuck/ghdone.git ~/src/ghdone
-$ ln -s ~/src/ghdone/ghdone /usr/local/bin/ghdone
+$ pip install -e ~/src/ghdone
 ```
 
 Create a [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) for github and set some `ENV` vars:
