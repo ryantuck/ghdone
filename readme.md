@@ -32,3 +32,7 @@ Options:
   --output [json|md]  Output as json or as markdown list with links.
   --help              Show this message and exit.
 ```
+
+## sample outputs
+
+TODO: add outputs here.
